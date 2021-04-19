@@ -9,12 +9,6 @@ module.exports = ({ env }) => ({
         },
         actionOptions: {
             upload: {
-                responsive_breakpoints: {
-                    create_derived: false,
-                    // width: 1000,
-                    // height: 600
-
-                },
                 folder: env('CLOUDINARY_UPLOAD_FOLDER')
             },
             delete: {},

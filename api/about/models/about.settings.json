@@ -16,11 +16,11 @@
       "required": true
     },
     "info": {
-      "type": "string",
+      "type": "text",
       "required": true
     },
     "image": {
-      "collection": "file",
+      "model": "file",
       "via": "related",
       "allowedTypes": [
         "files",
